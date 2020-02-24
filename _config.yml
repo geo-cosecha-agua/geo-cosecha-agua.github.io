@@ -1,7 +1,7 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: Portal Geoespacial del Proyecto Cosecha de Agua
+description: Portal Geoespacial del Proyecto Cosecha de Agua
 
-baseurl: /business-frontpage
+baseurl: /geo-cosecha-agua.github.io
 color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
 
 sass:

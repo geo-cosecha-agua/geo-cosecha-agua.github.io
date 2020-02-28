@@ -1,11 +1,11 @@
-- title: Home
+- title: Principal
   link: /
 
-- title: About
+- title: Acerca de
   link: /about/
 
-- title: Services
+- title: Servicios
   link: "/services/"
 
-- title: Contact
+- title: Contacto
   link: "/contact/"

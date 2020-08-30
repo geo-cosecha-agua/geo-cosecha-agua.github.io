@@ -3,14 +3,28 @@
 ## Descripción general
 Este repositorio contiene ...
 
-## Instalación de Jekyll
+## Ejecución del programa
+Los siguientes comandos deben ejecutarse en la línea de comandos del sistema operativo. Se recomienda utilizar la interfaz de línea de comandos de Anaconda. Se asume que el ambiente Conda ha sido creado de la manera que se muestra en la sección siguiente a esta.
 ```shell
-$ sudo apt install jekyll
-```
+# Activación del ambiente Conda
+$ conda activate geo-cosecha-agua-sitio-web
 
-## Clonación del 
-```shell
-$ sudo apt install jekyll
+# Clonación del repositorio
+$ git clone https://github.com/geo-cosecha-agua/geo-cosecha-agua.github.io.git
+$ cd geo-cosecha-agua.github.io
+
+# Prueba del sitio con el servidor interno de Jekyll (el resultado queda en http://127.0.0.1:4000/)
+$ jekyll serve
+
+# Modificaciones ...
+
+# Actualización del repositorio y de los archivos GeoJSON generados
+$ git add .
+$ git commit -m "Comentario apropiado para reflejar los cambios"
+$ git push
+
+# Desactivación del ambiente Conda
+$ conda deactivate
 ```
 
 ## Creación y configuración del ambiente Conda

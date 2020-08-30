@@ -13,8 +13,9 @@ $ conda activate geo-cosecha-agua-sitio-web
 $ git clone https://github.com/geo-cosecha-agua/geo-cosecha-agua.github.io.git
 $ cd geo-cosecha-agua.github.io
 
-# Prueba del sitio con el servidor interno de Jekyll (el resultado queda en http://127.0.0.1:4000/)
+# Prueba del sitio con el servidor interno de Jekyll
 $ jekyll serve
+# El sitio debe estar disponible en http://127.0.0.1:4000/geo-cosecha-agua.github.io/
 
 # Modificaciones ...
 

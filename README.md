@@ -43,8 +43,14 @@ $ conda create -n geo-cosecha-agua-sitio-web
 $ conda activate geo-cosecha-agua-sitio-web
 
 # Instalación de paquetes
-$ conda install -c conda-forge rb-jekyll
+$ conda install -c conda-forge rb-jekyll imagemagick
 
 # Desactivación del ambiente
 $ conda deactivate
+```
+
+## Reducción de la resolución de las imágenes
+```shell
+$ convert tablero-control-beneficiarios-2020-08-30.png -resize 50% tablero-control-beneficiarios-2020-08-30-reducido.png
+$ convert tablero-control-obras-2020-08-30.png -resize 50% tablero-control-obras-2020-08-30-reducido.png
 ```

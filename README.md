@@ -64,5 +64,5 @@ Logo del proyecto cosecha de agua (se usa en el perfil de la organización GitHu
 ```shell
 # Reducción del tamaño del logo del Proyecto Cosecha de Agua
 $ cd assets/img
-$ convert logo-proyecto-cosecha-agua.png -resize 50% logo-proyecto-cosecha-agua-reducido.png
+$ convert logo-proyecto-cosecha-agua.png -resize 216x216\! logo-proyecto-cosecha-agua-reducido.png
 ```
